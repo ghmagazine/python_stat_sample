@@ -23,9 +23,9 @@ ISBN978-4297100490
 
 ライブラリの基本的な使い方を学ぶためのnotebookがtutorialディレクトリに入っています。
 
-- [NumPyの使い方](https://github.com/ghmagazine/python_stat_sample/tutorial/numpy.ipynb)
-- [Pandasの使い方](https://github.com/ghmagazine/python_stat_sample/tutorial/numpy.ipynb)
-<!-- - [Matplotlibの使い方](https://github.com/ghmagazine/python_stat_sample/tutorial/numpy.ipynb) -->
+- [NumPyの使い方](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/numpy.ipynb)
+- [Pandasの使い方](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/pandas.ipynb)
+<!-- - [Matplotlibの使い方](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib.ipynb) -->
 
 ## Matplotlibの設定
 
@@ -57,7 +57,7 @@ matplotlibrcには次の1行を追記してください。
 font.family: IPAexGothic
 ```
 
-最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
+最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
 
 #### MacOS
 
@@ -67,7 +67,7 @@ matplotlibrcに次の1行を追記してください。
 font.family: AppleGothic
 ```
 
-最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
+最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
 
 #### Ubuntu 16.04
 
@@ -77,7 +77,7 @@ matplotlibrcに次の1行を追記してください。
 font.family: TakaoGothic
 ```
 
-最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
+最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
 
 ### グラフの設定
 本書のようにグラフに罫線を出力したい場合は、さらに次の設定もmatplotlibrcに追記してください。
