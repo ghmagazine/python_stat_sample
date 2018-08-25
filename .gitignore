@@ -1,0 +1,7 @@
+__pycache__
+*.egg-info
+*~
+*.bak
+.ipynb_checkpoints
+notebook/None0000000.png
+tutorial/test.npy
