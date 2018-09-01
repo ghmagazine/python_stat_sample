@@ -30,4 +30,4 @@ Pythonの使い方を学ぶための簡単なnotebookを用意してあります
 
 まったくのプログラミング初心者の方は、これらのnotebookだけで理解するのは大変だと思います。
 そのような方は
-[Pythonスタートブック](https://www.amazon.co.jp/Python%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF-%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88-%E8%BE%BB-%E7%9C%9F%E5%90%BE/dp/4774196436/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=&sr=)で勉強することをおすすめします。
+[Pythonスタートブック](http://gihyo.jp/book/2018/978-4-7741-9643-5)で勉強することをおすすめします。
