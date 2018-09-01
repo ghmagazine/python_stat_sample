@@ -5,7 +5,7 @@
     - [Anacondaのインストール](###Anacondaのインストール)
     - [仮想環境の作成](###仮想環境の作成)
     - [ライブラリのversion](###ライブラリのversion)
-- [Jupyter Notebookの起動](##Jupyter Notebookの起動)
+- [Jupyter Notebookの起動](##JupyterNotebookの起動)
 - [Matplotlibの設定](##Matplotlibの設定)
     - [日本語の設定](###日本語の設定)
     - [罫線の設定](###罫線の設定)
@@ -104,7 +104,7 @@ $ source activate pyst
 (pyst)$ conda install ipython=6.2
 ```
 
-## Jupyter Notebookの起動
+## JupyterNotebookの起動
 
 Jupyter Notebookは次のコマンドで起動します。
 コマンドを実行したディレクトリで起動するため、作業ディレクトリに`cd`してから起動するのがいいでしょう。
@@ -137,10 +137,15 @@ matplotlibrcにはいろいろと記述されていると思いますが、こ�
 
 ### 日本語の設定
 
-Appleゴシックというフォントが使えるはずです。
-matplotlibrcに次の1行を追記してください。
+Matplotlibのデフォルトのフォントは日本語に対応していないため、日本語のキャプションをつけようとすると文字化けしてしまいます。
+ここではそのような文字化けを回避するための設定をしていきます。
+
+- まずIPAexゴシックを[ここ](https://ipafont.ipa.go.jp/node26)からダウンロードしてください。
+- ダウンロード後、フォルダを展開して`ipaexg.ttf`をダブルクリックすることでIPAexゴシックをインストールできます。
+
+matplotlibrcには次の1行を追記してください。
 ```
-font.family: AppleGothic
+font.family: IPAexGothic
 ```
 
 最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。

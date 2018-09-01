@@ -5,7 +5,7 @@
     - [Anacondaのインストール](###Anacondaのインストール)
     - [仮想環境の作成](###仮想環境の作成)
     - [ライブラリのversion](###ライブラリのversion)
-- [Jupyter Notebookの起動](##Jupyter Notebookの起動)
+- [Jupyter Notebookの起動](##JupyterNotebookの起動)
 - [Matplotlibの設定](##Matplotlibの設定)
     - [日本語の設定](###日本語の設定)
     - [罫線の設定](###罫線の設定)
@@ -102,7 +102,7 @@ $ source activate pyst
 (pyst)$ conda install ipython=6.2
 ```
 
-## Jupyter Notebookの起動
+## JupyterNotebookの起動
 
 Jupyter Notebookは次のコマンドで起動します。
 コマンドを実行したディレクトリで起動するため、作業ディレクトリに`cd`してから起動するのがいいでしょう。
