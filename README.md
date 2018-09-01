@@ -13,77 +13,21 @@ ISBN978-4297100490
 
 ## Pythonとライブラリのインストール方法
 
-### Windows10
+インストール方法はOSごとに次を参考にしてください。
 
-### MacOS
+- [Windows10](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/env_const/windows10.md)
+- [MacOS](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/env_const/macos.md)
+- [Ubuntu16](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/env_const/ubuntu16.md)
 
-### Ubuntu16.04
+## Pythonとライブラリの基本
 
-## ライブラリの使い方
+Pythonの使い方を学ぶための簡単なnotebookを用意してあります。
 
-ライブラリの基本的な使い方を学ぶためのnotebookがtutorialディレクトリに入っています。
-
+- [Pythonの基本](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/python.ipynb)
 - [NumPyの使い方](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/numpy.ipynb)
 - [Pandasの使い方](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/pandas.ipynb)
 <!-- - [Matplotlibの使い方](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib.ipynb) -->
 
-## Matplotlibの設定
-
-Matplotlibの設定はmatplotlibrcというファイルで変更できます。  
-このmatplotlibrcの場所はPythonで次のコードを実行することでわかります。
-
-```python
-import matplotlib
-matplotlib.matplotlib_fname()
-```
-
-```
-.../site-packages/matplotlib/mpl-data/matplotlibrc
-```
-
-### 日本語の設定
-
-Matplotlibのデフォルトのフォントは日本語に対応していないため、日本語のキャプションをつけようとすると文字化けしてしまいます。
-そのため、matplotlibrcで日本語対応のフォントを使うように設定します。
-
-#### Windows10
-
-- まずIPAexゴシックを[ここ](https://ipafont.ipa.go.jp/node26)からダウンロードしてください。
-- ダウンロードした後、フォルダを展開してください。`ipaexg.ttf`というファイルが見つかるはずです。
-- コントロールパネル->デスクトップのカスタマイズ->フォントでフォントの設定にいき、そこに`ipaexg.ttf`をドラッグ＆ドロップしてください。これでIPAexゴシックをインストールすることができます。
-
-matplotlibrcには次の1行を追記してください。
-```
-font.family: IPAexGothic
-```
-
-最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
-
-#### MacOS
-
-Appleゴシックというフォントが使えるはずです。
-matplotlibrcに次の1行を追記してください。
-```
-font.family: AppleGothic
-```
-
-最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
-
-#### Ubuntu 16.04
-
-Takaoゴシックというフォントが使えるはずです。
-matplotlibrcに次の1行を追記してください。
-```
-font.family: TakaoGothic
-```
-
-最後に[このnotebook](https://github.com/ghmagazine/python_stat_sample/blob/master/tutorial/matplotlib_ja.ipynb)を実行して、日本語表示できているか確認してみましょう。
-
-### グラフの設定
-本書のようにグラフに罫線を出力したい場合は、さらに次の設定もmatplotlibrcに追記してください。
-
-```
-axes.grid: True
-axes.axisbelow: True
-grid.alpha: 0.5
-```
+まったくのプログラミング初心者の方は、これらのnotebookだけで理解するのは大変だと思います。
+そのような方は
+[Pythonスタートブック](https://www.amazon.co.jp/Python%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF-%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88-%E8%BE%BB-%E7%9C%9F%E5%90%BE/dp/4774196436/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=&sr=)で勉強することをおすすめします。
